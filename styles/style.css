@@ -1,0 +1,56 @@
+*{
+    margin: 0;   
+    font-family: 'Work Sans', sans-serif;
+  
+
+}
+/* use it as a primary button */
+.primary-button{
+    border-radius: 5px;
+    border-style: none;
+    font-size:20px;
+    font-weight: 600;
+    padding: 21px 25px 20px 26px;
+    color: #005FAC;
+}
+/* banner */
+.banner{
+            background-image: url('../images/banner/banner3.png');
+           width: 1600px;
+           height: 808px;
+
+}
+.banner-text{
+    text-align: right;
+    padding: 216px 230px 166px 845px;
+   color: #FFFFFF;
+}
+.banner-header-text{
+    font-weight: 700;
+    font-size: 65px;
+  
+}
+.banner button {
+    margin-top: 32px;
+}
+
+/* my Failures List */
+.my-image{
+
+    background-image: url('../images/person.png');
+    width: 569px;
+height: 723.3px;
+
+}
+
+.failures-items{
+    display: flex;
+    justify-content: center;
+}
+.my-failures li {
+    list-style: none;
+}
+.my-failures li i {
+    color: green;
+    
+}
