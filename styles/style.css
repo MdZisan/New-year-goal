@@ -45,7 +45,7 @@ height: 723.3px;
 
 .failures-items{
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 .my-failures li {
     list-style: none;
