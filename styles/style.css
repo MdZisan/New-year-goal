@@ -1,56 +1,89 @@
-*{
-    margin: 0;   
-    font-family: 'Work Sans', sans-serif;
-  
-
+* {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
 }
 /* use it as a primary button */
-.primary-button{
-    border-radius: 5px;
-    border-style: none;
-    font-size:20px;
-    font-weight: 600;
-    padding: 21px 25px 20px 26px;
-    color: #005FAC;
+.primary-button {
+  border-radius: 5px;
+  border-style: none;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 21px 25px 20px 26px;
+  color: #005fac;
 }
 /* banner */
-.banner{
-            background-image: url('../images/banner/banner3.png');
-           width: 1600px;
-           height: 808px;
-
+.banner {
+  background-image: url("../images/banner/banner3.png");
+  width: 1600px;
+  height: 808px;
 }
-.banner-text{
-    text-align: right;
-    padding: 216px 230px 166px 845px;
-   color: #FFFFFF;
+.banner-text {
+  text-align: right;
+  padding: 216px 230px 166px 845px;
+  color: #ffffff;
 }
-.banner-header-text{
-    font-weight: 700;
-    font-size: 65px;
-  
+.banner-header-text {
+  font-weight: 700;
+  font-size: 65px;
 }
 .banner button {
-    margin-top: 32px;
+  margin-top: 32px;
 }
 
 /* my Failures List */
-.my-image{
-
-    background-image: url('../images/person.png');
-    width: 569px;
-height: 723.3px;
-
+.my-image {
+  background-image: url("../images/person.png");
+  width: 1500px;
+  height: 723.3px;
+}
+.my-failures {
+  margin-left: 100px;
 }
 
-.failures-items{
-    display: flex;
-    align-items: center;
+.failures-items {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding-top: 131px;
+}
+.my-failures ul {
+  margin-top: 15px;
 }
 .my-failures li {
-    list-style: none;
+  list-style: none;
+  margin-left: -40px;
+  margin-top: 10px;
 }
 .my-failures li i {
-    color: green;
+  color: green;
+}
+.failures-list {
+  padding-left: 50px;
+}
+.failures-list p {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.failures-list h2 {
+    font-weight: bold;
+font-size: 40px;
+padding-right: 200px;
+}
+
+/* MY Plans style  */
+.my-plans{
+    margin-top: 130px;
+}
+
+.my-plans-container{
+    display: flex;
+    gap: 86px;
+    justify-content: center;
+   
     
+}
+.my-plans-header{ 
+    text-align: center;
+
 }
