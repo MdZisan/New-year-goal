@@ -99,6 +99,9 @@ padding-right: 200px;
     text-align: center;
 
 }
+.my-plans p{
+    color: black;
+}
 
 
 /* Positive text style */
@@ -133,7 +136,7 @@ height: 577px;
     padding: 130px 230px 0 ;
     gap: 15px;
 }
-.footer-item h2,h3 {
+.footer-item h2 {
     color: #F8F8F8;
 }
 .footer-item h2 {
@@ -171,4 +174,7 @@ border-radius: 10px;
 }
 .footer-item p,input,button {
 margin-top: 30px;
+}
+footer h3{ color: #F8F8F8;
+
 }
