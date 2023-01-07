@@ -120,3 +120,55 @@ font-size: 40px;
 .positive-image button {
     margin: 17px 0 0 64px;
 }
+/* Footer style */
+
+footer{
+    background: #151414; 
+    width: 1600px;
+height: 577px;
+}
+.footer-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 230px 0 ;
+    gap: 15px;
+}
+.footer-item h2,h3 {
+    color: #F8F8F8;
+}
+.footer-item h2 {
+    font-weight: 700;
+font-size: 45px;
+}
+.footer-item h3 {
+    font-weight: 600;
+font-size: 25px;
+}
+.footer-item p {
+    color: #FFFFFF;
+}
+.second-button{
+    border-radius: 5px;
+  border-style: none;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 21px 25px 20px 26px;
+  background-color:#005FAC ;
+  color: #ffffff;
+}
+.subscribe input {
+    width: 325px;
+height: 64px;
+background-color: black;
+color: white;
+font-size: 18px;
+border: 1px solid white;
+border-radius: 10px;
+
+}
+.subscribe h3 {
+    text-align: left;
+}
+.footer-item p,input,button {
+margin-top: 30px;
+}
